@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web Component Test</title>
+  </head>
+  <body>
+    <app-input
+      label="Email"
+      placeholder="Enter your email"
+      type="email">
+    </app-input>
+
+    <app-counter until="5"></app-counter>
+
+    <script type="module">
+      import "@danielaglint/custom-web-components/register";
+
+      document.addEventListener("app-input", (event) => {
+        console.log("Input value:", event.detail);
+      });
+      document.addEventListener("app-counter", (event) => {
+        console.log("Counter value:", event.detail);
+      });
+    </script>
+  </body>
+</html>
