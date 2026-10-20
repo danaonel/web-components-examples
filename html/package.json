@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@danielaglint/custom-web-components": "^1.1.1",
+    "@danielaglint/custom-web-components": "^1.1.2",
     "vite": "^8.3.4"
   },
   "name": "test-html",

@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@danielaglint/custom-web-components": "^1.1.1",
+    "@danielaglint/custom-web-components": "^1.1.2",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
